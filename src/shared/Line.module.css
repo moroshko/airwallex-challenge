@@ -1,0 +1,10 @@
+.line {
+  border-bottom: 2px solid;
+  margin: 8px auto;
+}
+.primaryLine {
+  border-color: #16803d;
+}
+.secondaryLine {
+  border-color: #999;
+}

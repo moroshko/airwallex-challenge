@@ -1,0 +1,21 @@
+.form {
+  background-color: #eee;
+}
+.fullNameInput {
+  margin-top: 40px;
+}
+.emailInput {
+  margin-top: 16px;
+}
+.confirmEmailInput {
+  margin-top: 16px;
+}
+.sendButton {
+  margin-top: 32px;
+}
+.serverError {
+  font-size: 12px;
+  color: red;
+  margin: 4px 0;
+  height: 16px;
+}

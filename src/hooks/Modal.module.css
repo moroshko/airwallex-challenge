@@ -1,0 +1,45 @@
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+.modal {
+  background-color: #eee;
+  box-shadow: 0 20px 40px hsla(0, 0%, 0%, 0.2);
+  padding: 32px;
+  max-width: 260px;
+  flex-grow: 1;
+  text-align: left;
+  position: relative;
+}
+.closeButton {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background: none;
+  border: 0;
+  padding: 4px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.closeButton:hover {
+  background-color: #ddd;
+}
+.closeButton:focus {
+  outline: none;
+}
+.title {
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
